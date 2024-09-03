@@ -1,6 +1,6 @@
+from pydrive.auth import GoogleAuth
+from pydrive.drive import GoogleDrive
 from google.oauth2 import service_account
-from pydrive2.auth import GoogleAuth
-from pydrive2.drive import GoogleDrive
 import os
 
 # Path to the service account credentials file
