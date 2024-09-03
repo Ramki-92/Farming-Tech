@@ -4,7 +4,9 @@ from pydrive2.drive import GoogleDrive
 import os
 
 # Path to the service account credentials file
-credentials_path = '/tmp/service-account-credentials.json'
+# credentials_path = '/tmp/service-account-credentials.json'
+
+credentials_path = os.getenv('SERVICE_ACCOUNT_FILE')
 
 # Authenticate and create the PyDrive client
 credentials = service_account.Credentials.from_service_account_file(
