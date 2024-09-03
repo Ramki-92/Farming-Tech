@@ -19,7 +19,7 @@ gauth.credentials = credentials
 drive = GoogleDrive(gauth)
 
 # Path to the CSV file in Jenkins workspace
-file_path = 'kpn_fresh_items_20240826_061708.csv'
+file_path = 'kpn_fresh_items_20240903_104847.csv'
 
 # Folder ID of the Google Drive folder where you want to upload the file
 folder_id = '1r3uqaGVRtLqf2r2s0d27K6hujTWSrkM4'  # Replace with your actual folder ID
